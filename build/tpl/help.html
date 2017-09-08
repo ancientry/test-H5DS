@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>帮助中心</title>
+    <meta name="description" content="帮助中心">
+    <meta name="keywords" content="帮助中心">
+    <!-- inject:meta -->
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?476b4d0da31c1280efca527753a93d2d";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- Set render engine for 360 browser -->
+<meta name="renderer" content="webkit">
+<!-- No Baidu Siteapp-->
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_p27hnfue2k18xgvi.css">
+<link rel="stylesheet" href="./assets/plugin/animate.css">
+<!--js-->
+<script src="./assets/plugin/jquery-2.1.1.js"></script>
+<script src="./assets/plugin/template.js"></script>
+
+<!--临时加入-->
+<!-- <script src="http://localhost:8000/webpack-dev-server.js"></script> -->
+<!-- endinject -->
+<link href="/assets/css/main.css?2b5afd2c3746769f478f" rel="stylesheet"></head>
+
+<body>
+    <!-- inject:header -->
+<!--头部-->
+<div class="header">
+	<div class="header-box clearfix">
+		<a href="/"><img class="logo" src="/assets/images/logo.png" alt=""></a>
+		<div class="header-nav">
+			<ul>
+				<li data-name="/"><a href="/">首页</a></li>
+				<li data-name="/case"><a href="/case">免费试用</a></li>
+				<li data-name="/license"><a href="/license">源码下载</a></li>
+				<li data-name="/help"><a href="/help">产品介绍</a></li>
+				<li style="display: none" data-name="logout"><a href="/api/logout">退出</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(function () {
+		var name = '/' + location.pathname.split('/')[1];
+		$('.header-nav').find('li[data-name="' + name + '"]').addClass('active');
+	});
+</script>
+<!-- endinject -->
+
+    <!--bodyer-->
+    <div class="bodyer">
+        <div class="helps">
+            <h1>界面说明</h1>
+            <div class="helps-list">
+                <img src="/assets/images/h1.jpg" /> <br />
+                <img src="/assets/images/h2.jpg" /> <br />
+                <img src="/assets/images/h3.jpg" /> <br />
+                <img src="/assets/images/h4.jpg" /> <br />
+                <img src="/assets/images/h5.jpg" /> <br />
+                <img src="/assets/images/h6.jpg" /> <br />
+                <img src="/assets/images/h7.jpg" /> <br />
+                <img src="/assets/images/h8.jpg" /> <br />
+                <img src="/assets/images/h9.jpg" /> <br />
+                <img src="/assets/images/h10.jpg" /> <br />
+                <img src="/assets/images/h11.jpg" /> <br />
+            </div>
+        </div>
+    </div>
+
+    <!-- inject:footer -->
+<!--底部-->
+<div class="footer">
+	<div class="footer-inner">
+		<div class="links">
+			<h1>友情链接：</h1>
+			<ul>
+				<li><a target="_blank" href="http://h5ds.com">h5ds</a></li>
+				<li><a target="_blank" href="http://jquery.com">jquery</a></li>
+				<li><a target="_blank" href="http://www.aliued.com">淘宝UED</a></li>
+				<li><a target="_blank" href="http://www.iconfont.cn">iconfont</a></li>
+				<li><a target="_blank" href="https://www.w3cvip.org">w3c-前端社区</a></li>
+			</ul>
+			<a class="powerby" href="http://h5ds.com">Powered by H5DS</a>
+			<div class="copyright">
+				Copyright © 2010-2017 成都飞酷网络科技有限公司 版权所有. 蜀ICP备14012609
+			</div>
+		</div>
+		<div class="qrcode">
+			<img width="100" src="/assets/images/qrcode.jpg" alt="">
+		</div>
+	</div>
+</div>
+<!-- endinject -->
+
+<script type="text/javascript" src="/assets/js/main.js?2b5afd2c3746769f478f"></script></body>
+
+<script>
+    
+</script>
+
+</html>
